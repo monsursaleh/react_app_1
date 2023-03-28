@@ -1,0 +1,25 @@
+.box {
+  height: 200px;
+  width: 200px;
+  color: aqua;
+  background-color: rgb(19, 100, 132);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  box-shadow: 5px 10px #888888;
+}
+.box:hover {
+  transform: rotate(10deg);
+}
+
+.box:first-child {
+  transform: rotate(-20deg);
+}
+.box:last-child {
+  transform: rotate(20deg);
+}

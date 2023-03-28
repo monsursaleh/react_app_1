@@ -1,0 +1,17 @@
+.box-container {
+  width: 90vw;
+  max-width: 1170px;
+  height: 70vh;
+  margin: 5rem auto;
+  /* display: grid; */
+  gap: 3rem;
+  border: 4px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* it also works */
+/* .box {
+  background: red;
+} */
